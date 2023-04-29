@@ -1,19 +1,39 @@
 body {
   margin: 0;
+  background-color: rgb(70, 68, 68);
 }
 
 main {
   width: 400vh;
 }
 
-img {
-  position:fixed;
-  top: 20px;
-  max-width:100%;
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  position: relative;
+  height: auto; /* Высота изображения определяется его исходными пропорциями */
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  height: auto; /* Высота изображения определяется его исходными пропорциями */
 }
 
 .bnrs {
   display: flex;
+  color: bisque;
+  bottom: 0;
+  position: absolute;
   justify-content: center;
+  gap: 2rem; /* Расстояние между баннерами */
+  width: 100%;
 }
 
+.bnr {
+  opacity: 0.6;
+  /* Размеры и стили для баннеров */
+}
