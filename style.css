@@ -22,6 +22,7 @@ header {
 .img img {
   width: 100%;
   height: auto; /* Высота изображения определяется его исходными пропорциями */
+  cursor: pointer; 
 }
 
 .bnrs {
