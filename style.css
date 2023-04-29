@@ -29,13 +29,40 @@ header {
   position: absolute; /* позволяет размещать баннеры поверх основного изображения */
   bottom: 0; /* указывает, что нижний край контейнера .bnrs должен быть выровнен
               с нижним краем контейнера .img. */
-  color: bisque;
-  justify-content: center;
-  gap: 2rem; /* Расстояние между баннерами */
-  width: 100%;
+  color: rgb(255, 255, 255);
+  justify-content:center;
+   /* Расстояние между баннерами */
+   width: 93%;
+   gap: 1%;
+   
 }
 
 .bnr {
-  opacity: 0.6;
-  /* Размеры и стили для баннеров */
+  opacity: 0.8;
+  display: flex;
+  align-items:center;
+}
+
+.bnr img {
+  max-height: 50px; /*Максимальная высота изображений внутри блока .bnr*/
+  height:auto;
+  width: auto;
+  object-fit:contain;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.bnr4 {
+  display: flex;
+  background-color:  rgb(255, 255, 255);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  color:rgb(98, 86, 79);
 }
