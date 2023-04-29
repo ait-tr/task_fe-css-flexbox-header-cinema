@@ -13,7 +13,8 @@ header {
 }
 
 .img {
-  position: relative;
+  position: relative;  /* устанавливает контекст позиционирования для абсолютно позиционированных
+                        дочерних элементов, таких как .bnrs. */
   height: auto; /* Высота изображения определяется его исходными пропорциями */
   overflow: hidden;
 }
@@ -25,9 +26,10 @@ header {
 
 .bnrs {
   display: flex;
+  position: absolute; /* позволяет размещать баннеры поверх основного изображения */
+  bottom: 0; /* указывает, что нижний край контейнера .bnrs должен быть выровнен
+              с нижним краем контейнера .img. */
   color: bisque;
-  bottom: 0;
-  position: absolute;
   justify-content: center;
   gap: 2rem; /* Расстояние между баннерами */
   width: 100%;
