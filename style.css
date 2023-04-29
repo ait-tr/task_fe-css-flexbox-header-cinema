@@ -27,20 +27,22 @@ header {
 .bnrs {
   display: flex;
   position: absolute; /* позволяет размещать баннеры поверх основного изображения */
-  bottom: 0; /* указывает, что нижний край контейнера .bnrs должен быть выровнен
-              с нижним краем контейнера .img. */
-  color: rgb(255, 255, 255);
+  flex-direction: row;
   justify-content:center;
-   /* Расстояние между баннерами */
-   width: 93%;
-   gap: 1%;
-   
+  bottom: 1px; /* указывает, что нижний край контейнера .bnrs должен быть выровнен
+                с нижним краем контейнера .img. */
+  color: rgb(255, 255, 255);
+  width: 93%;
+  gap: 1%; /* Расстояние между баннерами */
+  white-space: nowrap; /* Запрещает браузеру перенос строки */
+  overflow: hidden; /* Обрезает любое содержимое, выходящее за пределы элемента */
+  text-overflow:unset;
 }
 
 .bnr {
-  opacity: 0.8;
   display: flex;
   align-items:center;
+  opacity: 0.8;
 }
 
 .bnr img {
@@ -62,7 +64,15 @@ header {
   background-color:  rgb(255, 255, 255);
   border-radius: 5px;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
   padding: 0.5rem;
   color:rgb(98, 86, 79);
+  width: 150px;
+}
+
+.bnr-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
