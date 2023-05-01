@@ -13,15 +13,23 @@ main {
   transform: translate(-75%, -55%);
   z-index: 1;
   width: 200px;
+  max-width: 1000px;
 
-  
+
+
 }
+
 .imagebanner {
   position: absolute;
-  width: 1000px;
+  border: none;
   z-index: 0;
+  max-width: 1000px;
+  border-radius: 5px;
+
+
 
 }
+
 .oscar {
   position: absolute;
   top: 10%;
@@ -29,12 +37,17 @@ main {
   transform: translate(430%, -25%);
   z-index: 1;
   width: 20px;
+  max-width: 1000px;
+  border: none;
 }
+
 .oscar1 {
   color: rgba(255, 255, 255, 0.594);
   transform: translate(650%, -5%);
+  max-width: 1000px;
 
 }
+
 .play {
   position: absolute;
   top: 10%;
@@ -42,8 +55,12 @@ main {
   transform: translate(20%, -25%);
   z-index: 1;
   width: 20px;
+  max-width: 1000px;
+  border: none;
 }
+
 .play1 {
   color: rgba(255, 255, 255, 0.594);
   transform: translate(250%, -15%);
+  max-width: 1000px;
 }
