@@ -6,3 +6,53 @@ main {
   width: 400vh;
 }
 
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner{
+  width: 100vw;
+  position: absolute;
+  z-index: -5;
+}
+.header_section{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 1400px;
+  top: 50px;
+}
+.img-play{
+  width: 50px;
+  opacity: 0.6;
+}
+.text-online{
+  color: #ffffff;
+  font-size: 2.2em;
+  opacity: 0.6;
+  margin-left: -50px;
+}
+.img-oscar{
+  
+  width: 35px;
+  opacity: 0.6;
+}
+.text-oscar{
+  background-color: white;
+  color: #ffffff;
+  font-size: 2.2em;
+  opacity: 0.6;
+  margin-left: -50px;
+}
+input{
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+imput::placeholder{
+  font-size: 1.2em;
+  color: #c0c0c0;
+}
