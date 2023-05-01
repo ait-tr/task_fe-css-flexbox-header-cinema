@@ -24,3 +24,12 @@ main {
   z-index: 0;
 
 }
+.oscar {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(425%, -55%);
+  z-index: 1;
+  width: 20px;
+
+}
