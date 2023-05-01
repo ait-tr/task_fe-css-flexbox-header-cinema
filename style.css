@@ -6,3 +6,13 @@ main {
   width: 400vh;
 }
 
+.logo {
+  display: flex;
+  position:top;
+  width: 10px;
+  z-index: 100; 
+}
+.imagebanner {
+  z-index: 0; 
+  width: 1000px;
+}
