@@ -19,8 +19,6 @@ main {
 .imagebanner {
   position: absolute;
   width: 1000px;
-  top: 0;
-  left: 0;
   z-index: 0;
 
 }
@@ -28,8 +26,24 @@ main {
   position: absolute;
   top: 10%;
   left: 50%;
-  transform: translate(425%, -55%);
+  transform: translate(430%, -25%);
   z-index: 1;
   width: 20px;
+}
+.oscar1 {
+  color: rgba(255, 255, 255, 0.594);
+  transform: translate(650%, -5%);
 
+}
+.play {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(20%, -25%);
+  z-index: 1;
+  width: 20px;
+}
+.play1 {
+  color: rgba(255, 255, 255, 0.594);
+  transform: translate(250%, -15%);
 }
