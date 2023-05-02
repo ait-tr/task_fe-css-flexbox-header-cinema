@@ -6,3 +6,13 @@ main {
   width: 400vh;
 }
 
+.master {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  height: 100px;
+  /* justify-content: center; */
+}
