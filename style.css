@@ -6,13 +6,28 @@ main {
   width: 400vh;
 }
 
+p {
+  color: white;
+}
+
 .backLayer{
   width: 99vw;
   z-index: -100;
   position:absolute
 }
 
-.allTheRest{
+.container{
+  display: flex;
+  justify-content: center;
+  width: 99vw;
   z-index: 100;
-  position: relative; 
+  position: relative;
+}
+
+.play{
+  display: flex;
+}
+
+.oskar{
+  display: flex;
 }
