@@ -13,44 +13,53 @@ header {
 }
 
 .img {
-  position: relative;  /* устанавливает контекст позиционирования для абсолютно позиционированных
+  position: relative;
+  /* устанавливает контекст позиционирования для абсолютно позиционированных
                         дочерних элементов, таких как .bnrs. */
-  height: auto; /* Высота изображения определяется его исходными пропорциями */
+  height: auto;
+  /* Высота изображения определяется его исходными пропорциями */
   overflow: hidden;
 }
 
 .img img {
   width: 100%;
-  height: auto; /* Высота изображения определяется его исходными пропорциями */
-  cursor: pointer; 
+  height: auto;
+  /* Высота изображения определяется его исходными пропорциями */
+  cursor: pointer;
 }
 
 .bnrs {
   display: flex;
-  position: absolute; /* позволяет размещать баннеры поверх основного изображения */
+  position: absolute;
+  /* позволяет размещать баннеры поверх основного изображения */
   flex-direction: row;
-  justify-content:center;
-  bottom: 1px; /* указывает, что нижний край контейнера .bnrs должен быть выровнен
-                с нижним краем контейнера .img. */
+  justify-content: center;
+  bottom: 1px;
   color: rgb(255, 255, 255);
-  width: 93%;
-  gap: 1%; /* Расстояние между баннерами */
-  white-space: nowrap; /* Запрещает браузеру перенос строки */
-  overflow: hidden; /* Обрезает любое содержимое, выходящее за пределы элемента */
-  text-overflow:unset;
+  width: 100%;
+  gap: 70px;
+  white-space: nowrap;
+  /* Запрещает браузеру перенос строки */
+  overflow: hidden;
+  /* Обрезает любое содержимое, выходящее за пределы элемента */
+  text-overflow: clip;
 }
 
 .bnr {
   display: flex;
-  align-items:center;
-  opacity: 0.8;
+  align-items: center;
+}
+
+.bnr:not(:first-child) {
+  opacity: 0.7;
 }
 
 .bnr img {
-  max-height: 50px; /*Максимальная высота изображений внутри блока .bnr*/
-  height:auto;
+  max-height: 60px;
+  /* Максимальная высота изображений внутри блока .bnr */
+  height: auto;
   width: auto;
-  object-fit:contain;
+  object-fit: contain;
 }
 
 .button {
@@ -62,13 +71,14 @@ header {
 
 .bnr4 {
   display: flex;
-  background-color:  rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: flex-start;
   padding: 0.5rem;
-  color:rgb(98, 86, 79);
+  color: rgb(98, 86, 79);
   width: 150px;
+  opacity: 0.6;
 }
 
 .bnr-text {
