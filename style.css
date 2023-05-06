@@ -6,51 +6,46 @@ main {
   width: 400vh;
 }
 
-header {
-  background-image: url(./imagebanner.jpeg);
+.example{
+  height: 250px;
+ }
+
+.background{
   height: 100px;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
 }
 
-.navbar {
+.lineandphoto {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100%;
   flex-wrap: wrap;
-}
+  height: 100%;
+  }
 
-.nav-line {
+.line-kino-poisk {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
-.nav-el-container {
-  display: flex;
-  align-items: center;
-}
-
-.nav-el {
-  margin: 16px;
+.play-oscar {
+  margin: 20px;
   opacity: 0.5;
   color: white;
+  font-size: 18px;
 }
-
-.nav-input {
+  
+.logo {
+  width: 170px;
+}
+.inputclass {
   border: none;
-  background-color: rgb(255 255 255 /0.5);
-  border-radius: 3px;
-  width: 135px;
-  height: 27px;
-  margin-left: 30px;
-}
-
-.nav-input::placeholder{
-  opacity: 1;
-  color: black;
-}
-
-.icon {
-  margin: 5px;
+  border-radius:5px;
+  background-color: rgba(250, 234, 234, 0.6);
+  width:185px;
+  height:27px;
+  margin-left:15px;
+  font-size: 16px;
 }
