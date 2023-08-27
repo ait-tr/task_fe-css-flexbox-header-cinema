@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+  }
+  header{
+    margin: 0;
+    background-image: url(imagebanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+  }
+  main {
+    height: 200vh;
+  }
