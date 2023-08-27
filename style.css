@@ -2,14 +2,45 @@ body {
     margin: 0;
   }
   header{
+    position: sticky;
+    top: 0;
+    height: 150px;
     margin: 0;
     background-image: url(imagebanner.jpeg);
     background-repeat: no-repeat;
-    background-size: 1260px;
+    background-size: 1260px 150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 50px;
+    gap: 30px;
+  }
+  .logo{
+    height: 40px;
+  }
+  .oscar{
+    height: 40px;
+  }
+  .play{
+    height: 40px;
+  }
+  input{
+    height: 40px;
+    font-size: 20px;
+  }
+  div{
+    height: 40px;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  form{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
   }
   main {
     height: 200vh;
