@@ -26,6 +26,8 @@ body {
   input{
     height: 40px;
     font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
   }
   div{
     height: 40px;
@@ -42,6 +44,13 @@ body {
     align-items: center;
     margin-bottom: 20px;
   }
+  .opacity{
+    opacity: .6;
+  }
   main {
     height: 200vh;
+  }
+  .why{
+    width: 1260px;
+    height: 1000px;
   }
