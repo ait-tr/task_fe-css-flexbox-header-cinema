@@ -1,59 +1,64 @@
 body {
-    margin: 0;
-    background-color: antiquewhite;
-  }
-  header{
-    position: sticky;
-    top: 0;
-    margin: 0;
-    background-image: url(imagebanner.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 30px;
-    height: 155px;
-    width: 100%;
-  }
-  .logo{
-    height: 40px;
-  }
-  .oscar{
-    height: 40px;
-  }
-  .play{
-    height: 40px;
-  }
-  input{
-    height: 40px;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 10px;
-  }
-  div{
-    height: 40px;
-    color: aliceblue;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  form{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .opacity{
-    opacity: .6;
-  }
-  main {
-    height: 200vh;
-  }
-  .why{
-    width: fit-content;
-    height: 1000px;
-  }
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  background-image: url(imagebanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  height: 155px;
+  width: 100%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.oscar {
+  height: 40px;
+}
+
+.play {
+  height: 40px;
+}
+
+input {
+  height: 40px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+div {
+  height: 40px;
+  color: aliceblue;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.opacity {
+  opacity: .6;
+}
+
+main {
+  height: 200vh;
+}
