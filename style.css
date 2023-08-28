@@ -1,8 +1,47 @@
 body {
   margin: 0;
+  color: #ffffff;
 }
 
 main {
   width: 400vh;
 }
+.banner {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+.img_logo {
+  width: 200px;
+  position:absolute;
+  top: 50px;
+  left: 230px;
+  z-index: 1;
+}
+.img_play {
+  width: 500;
+  position:absolute;
+  top: 64px;
+  left: 467px;
+  z-index: 2;
+}
 
+.img_oscar {
+  width: 500;
+  position:absolute;
+  top: 60px;
+  left: 650px;
+  z-index: 3;
+}
+.txt-play{
+  position:absolute;
+  top: 66px;
+  left: 500px;
+  z-index: 4;
+}
+.txt-oscar{
+  position:absolute;
+  top: 66px;
+  left: 680px;
+  z-index: 4;
+}
