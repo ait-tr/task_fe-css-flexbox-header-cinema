@@ -1,18 +1,21 @@
 body {
     margin: 0;
+    background-color: antiquewhite;
   }
   header{
     position: sticky;
     top: 0;
-    height: 150px;
     margin: 0;
     background-image: url(imagebanner.jpeg);
     background-repeat: no-repeat;
-    background-size: 1260px 150px;
+    background-size: cover;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 30px;
+    height: 155px;
+    width: 100%;
   }
   .logo{
     height: 40px;
@@ -51,6 +54,6 @@ body {
     height: 200vh;
   }
   .why{
-    width: 1260px;
+    width: fit-content;
     height: 1000px;
   }
