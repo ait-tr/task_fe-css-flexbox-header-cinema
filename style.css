@@ -1,8 +1,84 @@
 body {
-  margin: 0;
+  margin: 0px;
 }
 
-main {
-  width: 400vh;
+.container {
+  position: relative;
+  
 }
+
+.imagebanner {
+
+  margin: 1px;
+  position: absolute;
+  height: 110px;
+ }
+
+.logo {
+    position: absolute;
+    height: 49px;
+    top: 16px;
+    left: 230px;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 40px;
+    
+   
+ 
+}
+.oscar {
+  position: absolute;
+  top: 78px;
+  left: 682px;
+  opacity: 0.8;
+ 
+}
+.oscar1 {
+  position: absolute;
+  color: white;
+  top: 81px;
+  left: 710px;
+  opacity: 0.8;
+}
+.play {
+  position: absolute;
+  top: 81px;
+  left: 507px;
+  opacity: 0.8;
+  border-color: white;
+  transition: background-color 0.8s ease-in-out, transform 0.8s ease-in-out;
+  
+}
+.play:hover {
+  background-color:white;
+  transform: scale(0.1);
+  
+  }
+.play1 {
+  position: absolute;
+  color: white;
+  top: 81px;
+  left: 532px;
+  opacity: 0.8;
+}
+.film {
+  position: absolute;
+  color: rgb(29, 28, 28);
+  top: 81px;
+  right: 255px;
+  background-color: #fff;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
 
