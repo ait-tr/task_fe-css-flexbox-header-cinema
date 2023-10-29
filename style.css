@@ -1,8 +1,17 @@
 body {
   margin: 0;
+  background-color: black;
 }
-
+img {
+  position: absolute;
+}
+#imagebanner {
+  width: 100%;
+}
 main {
   width: 400vh;
 }
-
+#logo {
+  left: 350px;
+  top: 85px;
+}
