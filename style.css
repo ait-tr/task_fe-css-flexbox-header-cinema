@@ -36,13 +36,11 @@ main {
 .play {
   align-self: center;
   margin-right: 8px;
-  opacity: 0.7;
 }
 
 .oscar {
   align-self: center;
   margin-right: 8px;
-  opacity: 0.7;
 }
 
 .cinema {
@@ -56,7 +54,7 @@ main {
 }
 
 .notes {
-  color: rgba(245, 245, 245, 0.7);
+  color: rgb(245, 245, 245);
   margin-right: 45px;
   align-self: center;
 }
@@ -66,6 +64,15 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
-  background: rgba(245, 245, 245, 0.5);
+  background: rgb(245, 245, 245);
   border-radius: 7px;
+}
+
+.logo:hover,
+.oscar:hover,
+.oscar_not:hover, 
+.notes:hover,
+.play:hover,
+.films:hover {
+  opacity: 0.8;
 }
