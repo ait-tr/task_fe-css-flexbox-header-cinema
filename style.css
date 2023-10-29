@@ -1,8 +1,71 @@
 body {
   margin: 0;
+
 }
 
 main {
   width: 400vh;
 }
 
+.header {
+  position: relative;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+
+}
+
+.navbar {
+  position: absolute;
+  top: 70px;
+  padding: 0px 50px;
+  left: 20%;
+
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.logo {
+  width: 25%;
+  margin-right: 40px;
+}
+
+.play {
+  align-self: center;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.oscar {
+  align-self: center;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.cinema {
+  font-size: 20px;
+  margin-right: 120px;
+}
+
+.oscar_not {
+  font-size: 20px;
+
+}
+
+.notes {
+  color: rgba(245, 245, 245, 0.7);
+  margin-right: 45px;
+  align-self: center;
+}
+
+.films {
+  padding: 5px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  background: rgba(245, 245, 245, 0.5);
+  border-radius: 7px;
+}
