@@ -9,26 +9,46 @@ body {
   width: 100%;
   position: absolute;
 }
-.logo, .oscar, .play {
+.logo,
+.oscar,
+.play,
+.input {
   z-index: 2;
+}
+.logo:hover,
+.oscar:hover,
+.play:hover,
+.input:hover {
+  opacity: 0.8;
 }
 main {
   width: 400vh;
 }
-.container {
-  margin-left: 150px;
+nav {
+  margin-left: 8%;
   height: 147.781px;
-  width: 50%;
+  width: 75%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 30px;
+  gap: 50px;
 }
 .play {
   margin-bottom: 20px;
   color: white;
+  width: 180px;
 }
 .oscar {
   margin-bottom: 20px;
   color: white;
+  width: 150px;
+}
+.input-film-serial {
+  color: white;
+}
+#input-film-serial {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 150px;
+  border-radius: 5px;
 }
