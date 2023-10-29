@@ -6,3 +6,32 @@ main {
   width: 400vh;
 }
 
+header {
+  position: sticky;
+}
+
+.container {
+  display: flex;
+  justify-content:center;
+  gap: 50px;
+
+}
+
+#background-banner {
+  position: absolute;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+#logo {
+  width: 10%;
+  z-index: 3;
+}
+
+#playlogo {
+  z-index: 5;
+}
+#oscarlogo {
+  z-index: 5;
+}
