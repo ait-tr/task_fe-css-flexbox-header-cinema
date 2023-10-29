@@ -8,30 +8,53 @@ main {
 
 header {
   position: sticky;
-}
-
-.container {
-  display: flex;
-  justify-content:center;
-  gap: 50px;
+  height: 200px;
 
 }
 
 #background-banner {
   position: absolute;
   width: 100%;
-  opacity: 0.8;
-  z-index: 0;
+}
+
+.container {
+  display: flex;
+  justify-content:center;
+  gap: 1.5rem;
 }
 
 #logo {
-  width: 10%;
+  width: 12rem;
+  height: 3rem;
   z-index: 3;
+  vertical-align: bottom;
+
 }
 
-#playlogo {
+.playlogo {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
   z-index: 5;
+  align-items: center;
+  opacity: 0.8;
 }
-#oscarlogo {
+.oscarlogo {
   z-index: 5;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  opacity: 0.8;
+}
+.search {
+  font-size: 1.5rem;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+
+p {
+  color: white;
+  font-size: 1.5rem;
+  opacity: 0.8;
 }
