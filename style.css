@@ -1,8 +1,66 @@
+.container {
+  width: 100vw;
+  position: relative;
+}
+
+.image-banner {
+  position: absolute;
+  width: 100vw;
+}
+
+.banner {
+  top: 4.5vw;
+  width: 100vw;
+  /* height: 7vh; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  gap: 0.5em;
+}
+
+.logo-img {
+  width: 15%;
+}
+
+.play-img {
+  fill: gray;
+  height: 2%;
+  width: 2%;
+  margin-bottom: 0.3em;
+  margin-left: 1em;
+}
+
+.play-text {
+  display: flex;
+  color: gray;
+  margin-bottom: 0.3em;
+}
+
+.text {
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+.oscar-img {
+  margin-bottom: 0.3em;
+  margin-left: 1em;
+}
+
+.films {
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: 1em;
+}
+
 body {
   margin: 0;
+  background-color: black;
 }
 
 main {
   width: 400vh;
 }
-
