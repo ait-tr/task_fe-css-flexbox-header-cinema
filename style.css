@@ -1,6 +1,50 @@
 body {
   margin: 0;
 }
+.conten{
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: center;
+}
+.box-logo{
+ 
+  display: flex;
+  gap: 180px;
+  flex-direction: row;
+  align-items: center;
+}
+.play{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  
+
+}
+.oscar{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+ 
+  
+
+}
+.bloc{
+  justify-content: flex-end;
+}
+
+p{
+  font-size: 1.8rem;
+  color: aliceblue;
+}
+.boxes-banner{
+  position: relative;
+  width: 60px;
+}
 
 main {
   width: 400vh;
